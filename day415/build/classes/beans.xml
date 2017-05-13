@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="ProductDao" class="com.dzf.daoImpl.ProductDaoImpl"/>
+	<bean id="CategoryDao" class="com.dzf.daoImpl.CategoryDaoImpl"/>
+	<bean id="UserDao" class="com.dzf.daoImpl.UserDaoImpl"/>
+	<bean id="OrderDao" class="com.dzf.daoImpl.OrderDaoImpl"/>
+	
+	<bean id="ProductService" class="com.dzf.serviceImpl.ProductServiceImpl"/>
+	<bean id="CategoryService" class="com.dzf.serviceImpl.CategoryServiceImpl"/>
+	<bean id="UserService" class="com.dzf.serviceImpl.UserServiceImpl"/>
+	<bean id="OrderService" class="com.dzf.serviceImpl.OrderServiceImpl"/>
+</beans>
